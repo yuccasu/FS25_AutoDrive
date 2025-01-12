@@ -8,7 +8,7 @@
 ADSettingsPage = {}
 ADSettingsPage.debug = false
 
-local ADSettingsPage_mt = Class(ADSettingsPage, TabbedMenuFrameElement)
+-- local ADSettingsPage_mt = Class(ADSettingsPage, TabbedMenuFrameElement)
 
 function ADSettingsPage.new(target)
     local self = TabbedMenuFrameElement.new(target, ADSettingsPage_mt)

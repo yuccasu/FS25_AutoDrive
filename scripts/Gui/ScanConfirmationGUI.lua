@@ -8,7 +8,7 @@
 ADScanConfirmationGui = {}
 ADScanConfirmationGui.debug = false
 
-local ADScanConfirmationGui_mt = Class(ADScanConfirmationGui, DialogElement)
+-- local ADScanConfirmationGui_mt = Class(ADScanConfirmationGui, DialogElement)
 
 function ADScanConfirmationGui.new(target)
     local self = DialogElement.new(target, ADScanConfirmationGui_mt)

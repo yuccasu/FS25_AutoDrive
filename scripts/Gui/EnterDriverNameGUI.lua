@@ -8,7 +8,7 @@
 ADEnterDriverNameGui = {}
 ADEnterDriverNameGui.debug = false
 
-local ADEnterDriverNameGui_mt = Class(ADEnterDriverNameGui, DialogElement)
+-- local ADEnterDriverNameGui_mt = Class(ADEnterDriverNameGui, DialogElement)
 
 function ADEnterDriverNameGui.new(target)
     local self = DialogElement.new(target, ADEnterDriverNameGui_mt)

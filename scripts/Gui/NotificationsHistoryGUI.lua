@@ -7,7 +7,7 @@ ADNotificationsHistoryGui.ICON_UVS = {
     { 512, 768, 256, 256 }
 }
 
-local ADNotificationsHistoryGui_mt = Class(ADNotificationsHistoryGui, DialogElement)
+-- local ADNotificationsHistoryGui_mt = Class(ADNotificationsHistoryGui, DialogElement)
 
 function ADNotificationsHistoryGui.new(target)
     local self = DialogElement.new(target, ADNotificationsHistoryGui_mt)

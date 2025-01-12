@@ -8,7 +8,7 @@
 ADEnterTargetNameGui = {}
 ADEnterTargetNameGui.debug = false
 
-local ADEnterTargetNameGui_mt = Class(ADEnterTargetNameGui, DialogElement)
+-- local ADEnterTargetNameGui_mt = Class(ADEnterTargetNameGui, DialogElement)
 
 function ADEnterTargetNameGui.new(target)
     local self = DialogElement.new(target, ADEnterTargetNameGui_mt)

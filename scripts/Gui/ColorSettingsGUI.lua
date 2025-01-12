@@ -1,7 +1,7 @@
 ADColorSettingsGui = {}
 ADColorSettingsGui.debug = false
 
-local ADColorSettingsGui_mt = Class(ADColorSettingsGui, DialogElement)
+-- local ADColorSettingsGui_mt = Class(ADColorSettingsGui, DialogElement)
 
 function ADColorSettingsGui.new(target)
     local self = DialogElement.new(target, ADColorSettingsGui_mt)

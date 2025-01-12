@@ -8,7 +8,7 @@
 ADEnterDestinationFilterGui = {}
 ADEnterDestinationFilterGui.debug = false
 
-local ADEnterDestinationFilterGui_mt = Class(ADEnterDestinationFilterGui, DialogElement)
+-- local ADEnterDestinationFilterGui_mt = Class(ADEnterDestinationFilterGui, DialogElement)
 
 function ADEnterDestinationFilterGui.new(target)
     local self = DialogElement.new(target, ADEnterDestinationFilterGui_mt)

@@ -8,7 +8,7 @@
 ADSettings = {}
 ADSettings.debug = false
 
-local ADSettings_mt = Class(ADSettings, TabbedMenu)
+-- local ADSettings_mt = Class(ADSettings, TabbedMenu)
 
 ADSettings.ICON_COLOR = {
     DEFAULT = {1, 1, 1, 1},

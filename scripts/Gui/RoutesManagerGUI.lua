@@ -1,7 +1,7 @@
 ADRoutesManagerGui = {}
 ADRoutesManagerGui.debug = false
 
-local ADRoutesManagerGui_mt = Class(ADRoutesManagerGui, DialogElement)
+-- local ADRoutesManagerGui_mt = Class(ADRoutesManagerGui, DialogElement)
 
 function ADRoutesManagerGui.new(target)
     local self = DialogElement.new(target, ADRoutesManagerGui_mt)

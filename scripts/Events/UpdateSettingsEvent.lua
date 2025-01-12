@@ -106,7 +106,7 @@ function AutoDriveUpdateSettingsEvent:readStream(streamId, connection)
 		AutoDrive.settings[settingName].userDefault = value
 	end
 
-	AutoDrive.gui.ADSettings:forceLoadGUISettings()
+	-- AutoDrive.gui.ADSettings:forceLoadGUISettings()
 
 	-- Server have to broadcast to all clients
 	if g_server ~= nil then
@@ -123,5 +123,5 @@ function AutoDriveUpdateSettingsEvent.sendEvent(vehicle)
 		-- Client have to send to server
 		g_client:getServerConnection():sendEvent(event)
 	end
-	AutoDrive.gui.ADSettings:forceLoadGUISettings()
+	-- AutoDrive.gui.ADSettings:forceLoadGUISettings()
 end
